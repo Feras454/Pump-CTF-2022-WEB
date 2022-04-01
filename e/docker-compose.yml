@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: web
+    ports:
+      - "7777:80"
+    network_mode: bridge
+
+
