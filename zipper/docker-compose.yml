@@ -1,0 +1,7 @@
+version: '2'
+services:
+    www:
+            build: web
+            ports:
+              - "8865:80"
+            network_mode: bridge
